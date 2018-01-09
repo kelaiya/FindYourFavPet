@@ -1,5 +1,6 @@
 body {
   font-family: sans-serif;
+  background-color: #e29c51;
 
   a {
     text-decoration: none;
@@ -18,4 +19,130 @@ body {
     margin: 1em;
     display: inline-block;
   }
+
+  .container{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: "Georgia";
+    color: purple;
+  }
+
+  .data{
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  #home{
+    text-align: center;
+    font-family: "Georgia";
+    font-style: bold;
+    font-size: 30px;
+    background-color: #a58795;
+    border-top: 3px dotted #000;
+    border-bottom: 3px dotted #000;
+    box-shadow: inset 0 -1px 0 0 #000, inset 0 1px 0 0 #000, 0 1px 0 0 #000, 0 -1px 0 0 #000;
+    margin-bottom: 1px;
+
+  }
+
+  h1{
+    color: white;
+  }
+
+  .labelName{
+    font-size: 30px;
+    height: 55px;
+    color:black;
+  }
+
+  .h1{
+    font-size: 35px;
+    color: black;
+  }
+  #inputBox{
+    border: 3px solid white;
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    font-family: "Georgia";
+    font-size: 20px;
+  }
+  
+  .button{
+    height: 50px;
+    width: 150px;
+    color: grey;
+    background-color: light pink;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Georgia";
+    border-radius: 4px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+  .button:hover {
+    background-color: pink;
+    color: light pink;
+  }
+
+  .sortclass{
+    border-radius: 4px;
+    width: 300px;
+    height: 50px;
+    float: right;
+    font-size: 24px;
+    font-family: "Georgia";
+  }
+
+  .images{
+    display: flex;
+    flex-direction: column;
+    width: calc(33.333333%);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .singlePic{
+    width: calc(99.15% - 20px);
+    background-color: pink;
+    border: 5px solid white;
+    margin: 10px;
+    border-radius: 4px;
+  }
+
+  .image{
+    border: 5px solid purple;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+    
+
+  }
+  .box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+  }
+  .Search-box{
+    width: calc(50% - 100px);
+    background-color: #edc9d3;
+    margin: 50px;
+  }
+
+  .text-color{
+    color: purple;
+    font-family: "Georgia";
+  }
+
 }
