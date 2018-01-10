@@ -1,7 +1,7 @@
 {
-  "name": "boilermaker",
+  "name": "kelaiya",
   "version": "1.0.0",
-  "description": "Some boilerplate code to get you started - get shakin'!",
+  "description": "Corridor Fundscoding challenge",
   "engines": {
     "node": ">= 7.0.0"
   },

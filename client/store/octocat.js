@@ -15,7 +15,6 @@ var pic = [];
 /**
  * ACTION CREATORS
  */
- //instead of three create remove and upate, make this into an object that contain selected product and an array. When updating a product dispatch bth putproduct and fetchsingle product
 const getPic = pic => ({type: GET_PIC, pic});
 const postPic = pics => ({type: POST_PIC, pics});
 

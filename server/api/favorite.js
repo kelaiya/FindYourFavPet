@@ -2,20 +2,17 @@ const router = require('express').Router()
 const {Favorite} = require('../db/models')
 const db = require('../db');
 
-// GET all categories
+// GET all octocats
 router.get('/', (req, res, next) => {
 	Favorite.findAll()
-	.then(favorite => {
-		console.log("raj", favorite)
-		res.json(favorite)})
-
+	.then(favorite => 
+		res.json(favorite))
 	.catch(next);
 });
 
 
-// POST new category
+// POST new octocat
 router.post('/', (req, res, next)=>{
-	console.log("backend", req)
 	Favorite.create({
 		name: req.body["hey"]
 	})

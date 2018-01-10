@@ -1,4 +1,5 @@
-//renders either all campuses or all students
+//Renders all the favoritized octocats
+
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import store, {fetchPic} from '../store';
@@ -8,7 +9,7 @@ export class Like extends Component {
   constructor() {
     super();
   }
-
+//Will give list of all the octocats from previous task
 componentDidMount() {
     const picThunk = fetchPic();
     store.dispatch(picThunk);

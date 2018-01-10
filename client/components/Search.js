@@ -1,4 +1,5 @@
-//renders either all campuses or all students
+//Renders the list of all the authors.
+
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import store, {fetchInfo, getInfo} from '../store';
@@ -9,6 +10,7 @@ export class Search extends Component {
     super();
   }
 
+  //Gives list of all the authors.
   componentDidMount() {
     const infoThunk = fetchInfo();
     store.dispatch(infoThunk);

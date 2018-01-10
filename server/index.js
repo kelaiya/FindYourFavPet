@@ -2,7 +2,6 @@ const path = require('path');
 const express = require('express');
 const morgan = require('morgan');
 const bodyParser = require('body-parser')
-// const SequelizeStore = require('connect-session-sequelize')(session.Store)
 const app = express();
 const db = require('./db');
 const socketio = require('socket.io');
@@ -12,6 +11,7 @@ module.exports = app;
 app.use(express.static(path.join(__dirname, '..', 'public')))
 
 const createApp = () => {
+
 // Logging middleware
 app.use(morgan('dev'));
 

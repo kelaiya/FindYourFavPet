@@ -21,3 +21,6 @@ Find your favorite octocat by your favorite author.
 * navigate to `http://localhost:8080/`
 
 From there, just follow your bliss.
+
+##Creator
+* Kelaiya Parikh

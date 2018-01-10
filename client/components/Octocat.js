@@ -1,4 +1,5 @@
-//renders either all campuses or all students
+//Renders all the octocats of that particular author
+
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
 import store, {createPic, postPic} from '../store';
@@ -10,6 +11,7 @@ export class Octocat extends Component {
     this.onChange = this.onChange.bind(this)
   }
 
+  //When cicked, it will become your favorite octocats
   onChange(event){
     event.preventDefault();
     this.props.postPic(event.target.value);
