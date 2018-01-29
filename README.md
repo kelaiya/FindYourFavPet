@@ -10,6 +10,9 @@ Find your favorite octocat by your favorite author.
 * Allow the user to favoritize any octocats.
 * Can see all the octocats that they favoritize.
 
+## Technologies used
+
+* React, Redux, Express, Sequelize and Javascript.
 ## Start
 
 * `npm install`
