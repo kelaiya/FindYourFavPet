@@ -1,4 +1,4 @@
-# KELAIYA PARIKH CODING CHALLENGE
+# KELAIYA PARIKH
 
 ## Introduction
 Find your favorite octocat by your favorite author.
