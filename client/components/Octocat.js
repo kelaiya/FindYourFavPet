@@ -1,4 +1,4 @@
-//Renders all the octocats of that particular author
+//Renders all the pets of that particular author
 
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
@@ -11,7 +11,7 @@ export class Octocat extends Component {
     this.onChange = this.onChange.bind(this)
   }
 
-  //When cicked, it will become your favorite octocats
+  //When cicked, it will become your favorite pets
   onChange(event){
     event.preventDefault();
     this.props.postPic(event.target.value);
