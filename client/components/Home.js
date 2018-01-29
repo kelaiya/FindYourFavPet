@@ -11,7 +11,7 @@ export default class Home extends Component {
         return (
             <div className="main">
               <div id="home">
-                <h1> Search Your favorite Octocats </h1>
+                <h1> Search Your favorite Pets </h1>
               </div>
               <Search />
             </div>

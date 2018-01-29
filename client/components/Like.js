@@ -1,4 +1,4 @@
-//Renders all the favoritized octocats
+//Renders all the favoritized pets
 
 import React, {Component} from 'react';
 import { connect } from 'react-redux';
