@@ -2,7 +2,7 @@ const router = require('express').Router()
 const {Favorite} = require('../db/models')
 const db = require('../db');
 
-// GET all octocats
+// GET all pets
 router.get('/', (req, res, next) => {
 	Favorite.findAll()
 	.then(favorite => 
@@ -11,7 +11,7 @@ router.get('/', (req, res, next) => {
 });
 
 
-// POST new octocat
+// POST new pet
 router.post('/', (req, res, next)=>{
 	Favorite.create({
 		name: req.body["hey"]
