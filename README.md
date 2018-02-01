@@ -1,14 +1,14 @@
 # KELAIYA PARIKH
 
 ## Introduction
-Find your favorite octocat by your favorite author.
+Find your favorite pet.
 
 ## Functionality
 
-* Fetch a list of all the authors and their octocats.
-* Allow the user to select their favorite author and see their octocats version.
-* Allow the user to favoritize any octocats.
-* Can see all the octocats that they favoritize.
+* Fetch a list of all the authors and their pets.
+* Allow the user to select their favorite author and see their pets version.
+* Allow the user to favoritize any pets.
+* Can see all the pets that they favoritize.
 
 ## Technologies used
 
