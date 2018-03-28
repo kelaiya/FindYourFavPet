@@ -8,10 +8,9 @@
   "scripts": {
     "build-client": "webpack",
     "build-client-watch": "webpack -w",
-    "deploy": "script/deploy",
-    "seed": "node script/seed.js",
     "deploy": "webpack -p && git add -f public/bundle.js public/bundle.js.map && git commit --allow-empty -m 'Deploying' && git push heroku master",
-    "start": "node server",
+    "seed": "node script/seed.js",
+    "start": "nodemon server",
     "start-dev": "npm run build-client-watch & npm run start-server",
     "start-server": "NODE_ENV='development' nodemon server -e html,js,scss --ignore public",
     "test": "NODE_ENV='test' DATABASE_URL='postgres://localhost:5432/boilermaker-test' mocha ./server/**/*.spec.js ./server/**/**/*.spec.js ./client/**/*.spec.js --compilers js:babel-register"
@@ -22,7 +21,7 @@
     "node",
     "heroku",
     "express"
-    ],
+  ],
   "dependencies": {
     "axios": "^0.15.3",
     "body-parser": "^1.16.1",
@@ -38,7 +37,7 @@
     "prop-types": "^15.5.8",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-redux": "^5.0.2",
+    "react-redux": "^5.0.7",
     "react-router": "^4.1.1",
     "react-router-dom": "^4.1.1",
     "redux": "^3.6.0",

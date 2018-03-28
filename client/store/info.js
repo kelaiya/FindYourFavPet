@@ -22,8 +22,10 @@ const getInfo = info => ({type: GET_INFO, info});
 export const fetchInfo = () =>
   dispatch =>
     axios.get(' https://s3-us-west-2.amazonaws.com/lcjobs/octodex.json')
-    .then(res =>
+    .then(res =>{
+      console.log("res", res.data)
       dispatch(getInfo(res.data))
+    }
     )
     .catch(err => console.log(err));
 
