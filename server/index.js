@@ -7,6 +7,8 @@ const db = require('./db');
 const socketio = require('socket.io');
 module.exports = app;
 
+var port = process.env.PORT || 8080
+
 // Static file-serving middleware
 app.use(express.static(path.join(__dirname, '..', 'public')))
 
@@ -37,7 +39,7 @@ app.use((err, req, res, next) => {
 
 // Start listening 
 const startListening = () => {
-app.listen(8080, () => console.log('Mixing it up on port 8080'))
+app.listen(port, () => console.log('Mixing it up on port 8080'))
 }
 const syncDb = () => db.sync()
 
