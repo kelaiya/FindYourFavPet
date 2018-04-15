@@ -1,7 +1,8 @@
 # KELAIYA PARIKH
 
 ## Introduction
-Find your favorite pet.
+
+* Find your favorite pet.
 
 ## Functionality
 
@@ -13,6 +14,7 @@ Find your favorite pet.
 ## Technologies used
 
 * React, Redux, Express, Sequelize and Javascript.
+
 ## Start
 
 * `npm install`
@@ -26,4 +28,5 @@ Find your favorite pet.
 From there, just follow your bliss.
 
 ##Creator
+
 * Kelaiya Parikh
